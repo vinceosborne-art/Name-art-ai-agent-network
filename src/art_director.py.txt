@@ -1,0 +1,50 @@
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+ART_DIRECTOR_FILE = BASE_DIR / "agents" / "art_director.md"
+ARTIST_PROFILE_FILE = BASE_DIR / "knowledge" / "artist_profile.md"
+BRAND_VOICE_FILE = BASE_DIR / "knowledge" / "brand_voice.md"
+SYSTEM_MISSION_FILE = BASE_DIR / "knowledge" / "system_mission.md"
+
+
+def read_file(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        return file.read()
+
+
+def load_art_director_knowledge():
+    art_director = read_file(ART_DIRECTOR_FILE)
+    artist_profile = read_file(ARTIST_PROFILE_FILE)
+    brand_voice = read_file(BRAND_VOICE_FILE)
+    system_mission = read_file(SYSTEM_MISSION_FILE)
+
+    return f"""
+========================
+ART DIRECTOR INSTRUCTIONS
+========================
+{art_director}
+
+========================
+ARTIST PROFILE
+========================
+{artist_profile}
+
+========================
+BRAND VOICE
+========================
+{brand_voice}
+
+========================
+SYSTEM MISSION
+========================
+{system_mission}
+"""
+
+
+if __name__ == "__main__":
+    knowledge = load_art_director_knowledge()
+
+    print("ART DIRECTOR KNOWLEDGE LOADED")
+    print("--------------------------------")
+    print(knowledge)
