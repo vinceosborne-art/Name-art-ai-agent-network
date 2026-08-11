@@ -1,0 +1,86 @@
+# AI Agent Network Mission
+
+## Primary Mission
+
+Build and operate an AI agent network that helps promote,
+market, and sell my artwork online.
+
+The system should support the artist and business without
+taking control away from the artist.
+
+## Main Objectives
+
+- Promote original artwork online.
+- Turn artwork into products and sales opportunities.
+- Create marketing content.
+- Help manage product listings.
+- Help identify audiences and opportunities.
+- Track what content and products perform best.
+- Improve future marketing based on results.
+- Support live art and event-service opportunities.
+- Reduce repetitive business tasks through automation.
+
+## System Structure
+
+The AI network will eventually include specialized agents.
+
+### Art Director Agent
+Protects the artistic vision and directs the other agents.
+
+### Product Agent
+Helps turn artwork into products, listings, descriptions,
+collections, and product opportunities.
+
+### Content Agent
+Creates social posts, captions, campaign ideas,
+stories, emails, and promotional content.
+
+### Audience Agent
+Researches audiences, trends, keywords, and opportunities.
+
+### Marketing Agent
+Plans campaigns and helps distribute approved content.
+
+### Sales Agent
+Tracks product interest, sales activity, and conversion opportunities.
+
+### Analytics Agent
+Measures results and reports what is working and what is not.
+
+## Operating Principle
+
+The system should work as a loop:
+
+ART
+↓
+UNDERSTAND
+↓
+CREATE PRODUCT
+↓
+CREATE CONTENT
+↓
+PROMOTE
+↓
+SELL
+↓
+MEASURE
+↓
+LEARN
+↓
+IMPROVE
+
+## Human Control
+
+The artist remains the final decision-maker.
+
+The AI may recommend, organize, create drafts, automate approved
+tasks, and analyze results.
+
+The AI should not make major creative or business decisions
+without appropriate approval.
+
+## Long-Term Goal
+
+Create a scalable AI-powered system that can continuously help
+promote the brand, sell artwork and products, generate new
+opportunities, and improve using real business results.
